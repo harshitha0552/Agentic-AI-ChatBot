@@ -84,36 +84,36 @@ This application allows users to:
 ├── requirements.txt      # Python dependencies
 └── README.md
 ```
-# ⚙️ How to Run the Project
-## 1️⃣ Clone the Repository
-```
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/harshitha0552/Agentic-AI-ChatBot.git
-cd chatbot
-cd Scripts
-activate
-cd ..
-streamlit run app.py
+cd Agentic-AI-ChatBot
 ```
 
-## 2️⃣ Install Dependencies
+## 2️⃣ Create & Activate Virtual Environment
+```
+python -m venv venv
+
+Activate the environment:venv\Scripts\activate
+```
+
+## 3️⃣ Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-## 3️⃣ Start Streamlit App
+## 4️⃣ Start Streamlit App
 ```
 streamlit run streamlit_app.py
 ```
 
 ## 4️⃣ Start n8n Workflow
 
-- Import the workflow into n8n
+- Import ChatBot.json into n8n
 
-- Configure:
-
--- Webhook URL
-
--- Google Gemini API credentials
+- Configure the Webhook URL and Google Gemini API credentials
 
 - Activate the workflow
 
