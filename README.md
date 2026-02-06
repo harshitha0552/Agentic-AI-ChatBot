@@ -1,5 +1,10 @@
 # Agentic AI ChatBot
 
+
+https://github.com/user-attachments/assets/75121dd9-0b7b-4c49-8f41-d0d95f95b838
+
+
+
 An **Agentic AI–powered conversational chatbot** built using **Streamlit, n8n**, designed to deliver a **ChatGPT-like user experience** with real-time AI responses.
 
 This project showcases how **Agentic AI workflows** and **automation platforms** can be integrated with a modern UI to build scalable conversational systems.
@@ -82,8 +87,8 @@ This application allows users to:
 # ⚙️ How to Run the Project
 ## 1️⃣ Clone the Repository
 ```
-git clone https://github.com/shubham132004/Ai-Powered-PPT-Generator.git
-cd power
+git clone https://github.com/harshitha0552/Agentic-AI-ChatBot.git
+cd chatbot
 cd Scripts
 activate
 cd ..
